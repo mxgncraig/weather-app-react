@@ -1,0 +1,82 @@
+.unit {
+  font-size: 18px;
+  color: #cadefc;
+}
+.unit .active {
+  color: #cadefc;
+  text-decoration: none;
+}
+.unit .active:hover {
+  cursor: default;
+}
+#current-icon {
+  max-width: 100px;
+  margin-left: -40px;
+}
+#temperature {
+  margin-left: -15px;
+}
+.Weather {
+  max-width: 600px;
+  border: 1px solid #dcdcdc;
+  border-radius: 20px;
+  padding: 50px;
+  margin: 30px auto;
+}
+.time-date {
+  text-align: right;
+  position: relative;
+  top: -30px;
+  color: #cadefc;
+  font-size: 15px;
+}
+.location-button {
+  position: relative;
+  top: -5px;
+  color: #cadefc;
+  font-size: 15px;
+  border: 1px solid #cadefc;
+  border-radius: 5px;
+  background-color: white;
+  transition: 250ms;
+}
+hover.location-button {
+  color: #c3bef0;
+  background-color: #cadefc;
+  cursor: pointer;
+}
+.search-engine {
+  padding-bottom: 10px;
+  margin-top: -20px;
+}
+.weather-variables {
+  font-size: 8px;
+  max-width: 250px;
+  color: #cadefc;
+}
+.upcoming-days {
+  text-align: center;
+  color: #cadefc;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.next-five-days {
+  text-align: center;
+  border: 1px solid #dcdcdc;
+  border-radius: 20px;
+  padding: 20px;
+}
+.upcoming-forecast-days {
+  color: #c3bef0;
+  font-size: 12px;
+}
+.upcoming-forecast-temps {
+  color: #cadefc;
+  font-size: 8px;
+}
+.warnings {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 20px;
+  color: red;
+}
