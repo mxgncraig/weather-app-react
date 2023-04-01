@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Weather.css";
 import Search from "./Search";
+import FormattedDate from "./FormattedDate";
 
 export default function Weather(props) {
   const [ready, setReady] = useState(false);
@@ -13,6 +14,7 @@ export default function Weather(props) {
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
       feelsLike: response.data.main.feels_like,
+      date: new Date(response.data.dt * 1000),
       city: response.data.name,
       currentIcon: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-night.png`,
       iconDescription: response.data.weather.description,
@@ -26,7 +28,9 @@ export default function Weather(props) {
         <button className="btn btn-light location-button">
           Search for your current location...
         </button>
-        <p className="time-date">Current time and date</p>
+        <p className="time-date">
+          <FormattedDate date={weather.date} />
+        </p>
         <Search />
         <h1>{weather.city}</h1>
         <div className="weather-variables">
