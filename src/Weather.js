@@ -14,7 +14,7 @@ export default function Weather() {
   };
   return (
     <div className="Weather">
-      <button class="location-button">
+      <button className="btn btn-light location-button">
         Search for your current location...
       </button>
       <p className="time-date">Current time and date</p>
@@ -35,9 +35,9 @@ export default function Weather() {
       </div>
       <div>
         <h2>
-          <img src={weatherData.imgUrl} alt=".." />
+          <img src={weatherData.imgUrl} alt=".." className="current-icon" />
           <span>{weatherData.temperature}</span>{" "}
-          <span className="unit">°C</span>
+          <span className="unit current-temp">°C</span>
         </h2>
       </div>
       <p className="upcoming-days">The next 5 days...</p>

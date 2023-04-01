@@ -19,3 +19,14 @@ h2 {
 .App {
   margin: 50px;
 }
+.search-engine {
+  max-width: 280px;
+}
+.footer {
+  color: #c3bef0;
+  text-align: center;
+  font-size: 10px;
+}
+.footer a {
+  color: #cadefc;
+}

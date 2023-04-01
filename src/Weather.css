@@ -9,11 +9,11 @@
 .unit .active:hover {
   cursor: default;
 }
-#current-icon {
+.current-icon {
   max-width: 100px;
   margin-left: -40px;
 }
-#temperature {
+.current-temp {
   margin-left: -15px;
 }
 .Weather {
@@ -50,8 +50,8 @@ hover.location-button {
   margin-top: -20px;
 }
 .weather-variables {
-  font-size: 8px;
-  max-width: 250px;
+  font-size: 10px;
+  max-width: 260px;
   color: #cadefc;
 }
 .upcoming-days {
