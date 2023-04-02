@@ -26,7 +26,7 @@
 .time-date {
   text-align: right;
   position: relative;
-  top: -30px;
+  top: 30px;
   color: #cadefc;
   font-size: 15px;
 }
