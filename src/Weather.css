@@ -12,6 +12,7 @@
 .current-icon {
   max-width: 100px;
   margin-left: -40px;
+  margin-top: -20px;
 }
 .current-temp {
   margin-left: -15px;
