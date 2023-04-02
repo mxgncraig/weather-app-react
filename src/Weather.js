@@ -17,7 +17,7 @@ export default function Weather(props) {
       feelsLike: response.data.main.feels_like,
       date: new Date(response.data.dt * 1000),
       city: response.data.name,
-      currentIcon: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-night.png`,
+      currentIcon: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       iconDescription: response.data.weather.description,
     });
     setReady(true);
