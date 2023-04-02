@@ -22,7 +22,7 @@ export default function CurrentTemperature(props) {
         <span>{Math.round(props.celcius)}</span>{" "}
         <span className="unit current-temp">
           °C |{" "}
-          <a href="#" onClick={convertFar}>
+          <a href="/" onClick={convertFar}>
             °F
           </a>
         </span>
@@ -33,7 +33,7 @@ export default function CurrentTemperature(props) {
       <span className="currentTemperature">
         <span>{Math.round(fahrenheit())}</span>{" "}
         <span className="unit current-temp">
-          <a href="#" onClick={convertCel}>
+          <a href="/" onClick={convertCel}>
             °C
           </a>{" "}
           | °F
