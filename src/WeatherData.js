@@ -1,4 +1,5 @@
 import React from "react";
+import CurrentTemperature from "./CurrentTemperature";
 
 export default function WeatherData(props) {
   return (
@@ -24,8 +25,7 @@ export default function WeatherData(props) {
             alt={props.data.iconDescription}
             className="current-icon"
           />
-          <span>{Math.round(props.data.temperature)}</span>{" "}
-          <span className="unit current-temp">°C</span>
+          <CurrentTemperature celcius={props.data.temperature} />
         </h2>
       </div>
       <p className="upcoming-days">The next 5 days...</p>

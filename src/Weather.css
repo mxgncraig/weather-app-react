@@ -17,6 +17,9 @@
 .current-temp {
   margin-left: -15px;
 }
+.currentTemperature a {
+  color: #c3bef0;
+}
 .Weather {
   max-width: 600px;
   border: 1px solid #dcdcdc;
@@ -30,21 +33,6 @@
   top: 30px;
   color: #cadefc;
   font-size: 15px;
-}
-.location-button {
-  position: relative;
-  top: -5px;
-  color: #cadefc;
-  font-size: 15px;
-  border: 1px solid #cadefc;
-  border-radius: 5px;
-  background-color: white;
-  transition: 250ms;
-}
-hover.location-button {
-  color: #c3bef0;
-  background-color: #cadefc;
-  cursor: pointer;
 }
 .search-engine {
   padding-bottom: 10px;
