@@ -28,9 +28,6 @@ export default function WeatherData(props) {
           <CurrentTemperature celcius={props.data.temperature} />
         </h2>
       </div>
-      <p className="upcoming-days">The next 5 days...</p>
-      <div className="next-five-days"></div>
-      <p className="warnings">Current weather warnings: None</p>
     </div>
   );
 }
