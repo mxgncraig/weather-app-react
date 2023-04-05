@@ -63,6 +63,9 @@
   color: #cadefc;
   font-size: 10px;
 }
+.WeatherForecast-icons {
+  max-width: 5px;
+}
 .warnings {
   text-align: center;
   font-size: 10px;
