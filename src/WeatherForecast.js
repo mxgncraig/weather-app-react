@@ -10,7 +10,7 @@ export default function WeatherForecast(props) {
           <div className="col">
             <div className="WeatherForecast-days">Day</div>
             <div className="WeatherForecast-icons">
-              <img src="" />
+              <img src="/" />
             </div>
             <div className="WeatherForecast-temperatures">
               <span className="WeatherForecast-temperaturesLo">Lo /</span>
@@ -20,7 +20,7 @@ export default function WeatherForecast(props) {
           <div className="col">
             <div className="WeatherForecast-days">Day</div>
             <div className="WeatherForecast-icons">
-              <img src="" />
+              <img src="/" />
             </div>
             <div className="WeatherForecast-temperatures">
               <span className="WeatherForecast-temperaturesLo">Lo /</span>
@@ -30,7 +30,7 @@ export default function WeatherForecast(props) {
           <div className="col">
             <div className="WeatherForecast-days">Day</div>
             <div className="WeatherForecast-icons">
-              <img src="" />
+              <img src="/" />
             </div>
             <div className="WeatherForecast-temperatures">
               <span className="WeatherForecast-temperaturesLo">Lo /</span>
@@ -40,7 +40,7 @@ export default function WeatherForecast(props) {
           <div className="col">
             <div className="WeatherForecast-days">Day</div>
             <div className="WeatherForecast-icons">
-              <img src="" />
+              <img src="/" />
             </div>
             <div className="WeatherForecast-temperatures">
               <span className="WeatherForecast-temperaturesLo">Lo /</span>
@@ -50,7 +50,7 @@ export default function WeatherForecast(props) {
           <div className="col">
             <div className="WeatherForecast-days">Day</div>
             <div className="WeatherForecast-icons">
-              <img src="" />
+              <img src="/" />
             </div>
             <div className="WeatherForecast-temperatures">
               <span className="WeatherForecast-temperaturesLo">Lo /</span>
